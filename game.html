@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neon Game – 4 Levels (HTML + CSS Only)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="game-page">
+
+  <div class="arena">
+
+    <!-- Hidden radio buttons for level control -->
+    <input type="radio" name="level" id="level1" checked>
+    <input type="radio" name="level" id="level2">
+    <input type="radio" name="level" id="level3">
+    <input type="radio" name="level" id="level4">
+
+    <!-- Tabs -->
+    <div class="tabs">
+      <label for="level1" class="tab">Level 1</label>
+      <label for="level2" class="tab">Level 2</label>
+      <label for="level3" class="tab">Level 3</label>
+      <label for="level4" class="tab">Level 4</label>
+    </div>
+
+    <!-- Level 1 -->
+    <section class="level level-one">
+      <h1>🚀 Level 1: Entry Portal</h1>
+      <p>Welcome to the Neon Realm! Click next level to continue.</p>
+    </section>
+
+    <!-- Level 2 -->
+    <section class="level level-two">
+      <h1>🔥 Level 2: Shadow Run</h1>
+      <p>Dodge the pulses of dark energy. Keep calm…</p>
+      <div class="pulse"></div>
+    </section>
+
+    <!-- Level 3 -->
+    <section class="level level-three">
+      <h1>⚡ Level 3: Energy Storm</h1>
+      <p>Lightning surrounds you. The neon storm rages!</p>
+      <div class="storm"></div>
+    </section>
+
+    <!-- Level 4 -->
+    <section class="level level-four">
+      <h1>🏁 Level 4: Victory</h1>
+      <p>Congratulations, Player! You completed all levels.</p>
+      <div class="end-screen">
+        <span>🎉 GAME OVER 🎉</span>
+      </div>
+    </section>
+
+  </div>
+</body>
+</html>
+
+

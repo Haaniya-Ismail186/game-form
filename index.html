@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="form-page">
+
+  <form class="register" action="game.html" method="get">
+    <fieldset>
+      <legend>🎮 Player Registration</legend>
+
+      <label for="name">Player Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="level">Select Level:</label>
+      <select id="level" name="level">
+        <option value="1">Level 1</option>
+        <option value="2">Level 2</option>
+        <option value="3">Level 3</option>
+        <option value="4">Level 4</option>
+      </select>
+
+      <label>Gender:</label>
+      <div class="gender">
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+      </div>
+
+      <label for="bio">Short Bio:</label>
+      <textarea id="bio" name="bio" placeholder="Write something about yourself..."></textarea>
+
+      <button type="submit" class="start-btn">Start Game</button>
+    </fieldset>
+  </form>
+
+</body>
+</html>
+
+
